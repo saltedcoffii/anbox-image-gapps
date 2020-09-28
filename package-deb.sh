@@ -1,5 +1,6 @@
 #!/bin/bash
-rm ./deb/anbox-image-gapps/var/lib/anbox/android.img
+rm ./deb/anbox-image-gapps/var/ -rfv
+mkdir -pv ./deb/anbox-image-gapps/var/lib/anbox/
 cd ./src
 cp -v android.img ../deb/anbox-image-gapps/var/lib/anbox/android.img
 

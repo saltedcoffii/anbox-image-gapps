@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -v ./src
 cd ./src
 export imgver=2018.07.19
 export imgver2=${imgver//./\/}

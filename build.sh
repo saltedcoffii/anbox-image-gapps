@@ -32,7 +32,7 @@ unsquashfs -f -d ./houdini_z ./houdini_z.sfs
 
 mkdir -p ./squashfs-root/system/lib64/arm64
 cp -r ./houdini_z/* ./squashfs-root/system/lib64/arm64
-mv ./squashfs-root/system/lib64/arm64/libhoudini.so ./squashfs-root/system/lib64/libhoudini.so
+mv -v ./squashfs-root/system/lib64/arm64/libhoudini.so ./squashfs-root/system/lib64/libhoudini.so
 
 # add houdini parser
 mkdir -p ./squashfs-root/system/etc/binfmt_misc
@@ -81,7 +81,7 @@ for i in ${_gapps_list[*]}; do
     mkdir -p $i
     rm -rf ./$i/*
     tar --lzip -xvf ./Core/$i.tar.lz
-    cp -r ./$i/nodpi/priv-app/* ./squashfs-root/system/priv-app/
+    cp -rv ./$i/nodpi/priv-app/* ./squashfs-root/system/priv-app/
 done
 
 # repack image
