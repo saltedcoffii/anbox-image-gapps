@@ -1,0 +1,10 @@
+Package: anbox-image-gapps
+Version: 2018.07.19
+Architecture: amd64
+Maintainer: saltedcoffii
+Depends: anbox, squashfs-tools, binutils, busybox | busybox-static, curl, tar, coreutils, unzip
+Section: contrib/utils
+Priority: optional
+Homepage: https://github.com/saltedcoffii/anbox-image-gapps
+Description: A modified anbox image containing libhoudini and open-gapps for the amd64 archtecture.
+  See the github repo for more information. https://github.com/saltedcoffii/anbox-image-gapps
