@@ -2,6 +2,10 @@
 ## A collection of scripts to build a modified anbox image containing libhoudini and open-gapps for the amd64 architecture.
 ---
 
+### Dependencies
+
+These scripts depend on the following: squashfs-tools, binutils, busybox, curl, tar, tarlz, coreutils, unzip, You can install these on Debian/Ubuntu by running `sudo apt install squashfs-tools binutils busybox-static curl tar coreutils unzip tarlz`
+
 ### Installing
 
 #### Installing on Debian-based distros:
