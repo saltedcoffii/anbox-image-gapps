@@ -73,7 +73,7 @@ sed -i 's/ro.dalvik.vm.native.bridge=0/ro.dalvik.vm.native.bridge=libhoudini.so/
 echo 'ro.opengles.version=131072' >> ./squashfs-root/system/build.prop
 
 # install media codecs
-cp media_codec*.xml ./squashfs-root/system/etc/
+cp ../media_codec*.xml ./squashfs-root/system/etc/
 
 # install gapps
 unzip open_gapps-x86_64-7.1-pico-$_gapps_rel.zip
