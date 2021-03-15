@@ -85,3 +85,6 @@ Note that anything installed this way will not be removable by your distribution
 
 #### Bugs
 These scripts may contain bugs. Don't expect them, but if you run into one, please create an issue!
+
+### License
+This program is licensed under the EUPL v1.2 or later. See the [license website](https://www.eupl.eu/) for more information.
