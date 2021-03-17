@@ -8,7 +8,7 @@ This repository is a work in progress. The scripts are functional however they a
 
 ### Dependencies
 
-These scripts depend on the following: squashfs-tools, binutils,as curl, tar, tarlz, coreutils, unzip, You can install these on Debian/Ubuntu by running `sudo apt install squashfs-tools binutils curl tar coreutils unzip tarlz`
+These scripts depend on the following: squashfs-tools, binutils, curl, tar, tarlz, coreutils, unzip, You can install these on Debian/Ubuntu by running `sudo apt install squashfs-tools binutils curl tar coreutils unzip tarlz`
 
 ### Installing
 
